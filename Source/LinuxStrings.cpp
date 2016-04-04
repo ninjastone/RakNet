@@ -23,7 +23,6 @@ int _strnicmp(const char* s1, const char* s2, size_t n)
 #ifndef _vsnprintf
 #define _vsnprintf vsnprintf
 #endif
-#ifndef __APPLE__
 char *_strlwr(char * str )
 {
 	if (str==0)
@@ -35,5 +34,4 @@ char *_strlwr(char * str )
 	}
 	return str;
 }
-#endif
 #endif

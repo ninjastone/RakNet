@@ -28,9 +28,7 @@
      //   #ifndef _vsnprintf
 		    #define _vsnprintf vsnprintf
        // #endif
-#ifndef __APPLE__
 		char *_strlwr(char * str ); //this won't compile on OSX for some reason
-#endif
 
 
 
